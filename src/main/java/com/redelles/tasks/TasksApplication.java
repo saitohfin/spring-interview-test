@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.redelles.tasks.task.TaskService;
@@ -18,7 +17,6 @@ import com.redelles.tasks.task.domain.Task;
 import com.redelles.tasks.user.persistence.UserEntity;
 import com.redelles.tasks.user.persistence.UserRepository;
 
-@EnableScheduling
 @SpringBootApplication
 public class TasksApplication {
 
